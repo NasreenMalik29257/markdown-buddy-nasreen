@@ -40,22 +40,20 @@ Key response: Draft reflection answers discussing README organization, the need 
 
 ## Verification Checklist
 
-- [ ] Preview README.md on GitHub and check Markdown formatting.
-- [ ] Run monthly_sales.R in Posit Cloud.
-- [ ] Independently calculate and verify total sales.
-- [ ] Independently calculate and verify average sales.
-- [ ] Knit monthly_sales.Rmd to HTML.
-- [ ] Verify that the bar chart displays correctly.
-- [ ] Confirm reflection answers match the instructor's actual questions.
+- [x] Preview README.md on GitHub and check Markdown formatting.
+- [x] Run monthly_sales.R in Posit Cloud.
+- [x] Independently calculate and verify total sales.
+- [x] Independently calculate and verify average sales.
+- [x] Knit monthly_sales.Rmd to HTML.
+- [x] Verify that the bar chart displays correctly.
+- [x] Confirm reflection answers match the instructor's actual questions.
 
 ## Verification and Improvements
 
-To complete after testing:
-
-1. Issue identified:
-2. Improvement made:
-3. Result after rechecking:
+1. Issue identified: AI-generated R code and Markdown documentation needed to be tested for accuracy and correct formatting.
+2. Improvement made: I ran the R analysis in Posit Cloud, independently checked the total and average sales using a calculator, and knitted the R Markdown document into HTML.
+3. Result after rechecking: The total sales were $95,100 and average sales were $15,850. Both matched my independent calculations. The HTML report displayed the sales table, summary statistics, and bar chart correctly. No rendering errors were observed in the final report.
 
 ## Ethical Use
 
-Only synthetic monthly sales data is used. No real customer or business records are included. AI-assisted content will be reviewed and verified before submission. I am responsible for the final work.
+I used ChatGPT to assist with drafting and formatting the README, R code examples, R Markdown documentation, and reflection responses. I used only synthetic monthly sales data and did not share any personal or confidential information. I tested the R code in Posit Cloud, verified the calculations independently, and reviewed the generated HTML report. I documented AI assistance to maintain transparency. I understand that I am responsible for reviewing the final work and ensuring its accuracy and originality.
