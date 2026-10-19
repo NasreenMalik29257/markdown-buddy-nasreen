@@ -1,0 +1,65 @@
+---
+title: "Monthly Sales Analysis in R"
+author: "Nasreen Malik"
+date: "2026-10-19"
+output: html_document
+---
+
+# Purpose
+
+This document explains a basic monthly sales analysis using R and a synthetic dataset. It demonstrates data organization, descriptive statistics, and visualization.
+
+# Inputs
+
+The dataset contains fictional monthly sales figures for January through June.
+
+- `month`: Name of the month.
+- `sales`: Monthly sales amount in Canadian dollars.
+
+# Data Preparation
+
+```{r data-preparation}
+sales_data <- data.frame(
+  month = c("January", "February", "March", "April", "May", "June"),
+  sales = c(12000, 14500, 13200, 16800, 18500, 20100)
+)
+
+print(sales_data)
+```
+
+# Summary Statistics
+
+```{r summary-statistics}
+total_sales <- sum(sales_data$sales)
+average_sales <- mean(sales_data$sales)
+
+print(total_sales)
+print(average_sales)
+summary(sales_data)
+```
+
+# Visualization
+
+```{r visualization}
+barplot(
+  sales_data$sales,
+  names.arg = sales_data$month,
+  main = "Monthly Sales Analysis",
+  xlab = "Month",
+  ylab = "Sales (CAD)",
+  col = "skyblue",
+  las = 2
+)
+```
+
+# Outputs
+
+The analysis produces a monthly sales table, total and average sales, descriptive statistics, and a bar chart comparing sales across six months.
+
+# Conclusion
+
+This project demonstrates how R can be used to organize, summarize, and visualize monthly sales data. The dataset is synthetic and is used only for educational purposes.
+
+# AI Assistance Declaration
+
+I used ChatGPT (GPT-6) on October 19, 2026, for suggestions on R Markdown formatting, code examples, and documentation structure. I will verify the calculations and rendered document using Posit Cloud and an independent manual cross-check. The prompts and key responses will be documented in AI_Appendix.md. I am responsible for the accuracy and originality of the final submission.
